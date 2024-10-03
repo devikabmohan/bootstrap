@@ -98,6 +98,14 @@
     border-radius: 16px !important;
     background: #4318FF;
   }
+  @media screen and (max-width:400px) {
+    .templates{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start !important;
+    }
+  }
 
   
     
